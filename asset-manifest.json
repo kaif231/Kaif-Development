@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kaif-Development/static/css/main.195e7180.css",
+    "main.js": "/Kaif-Development/static/js/main.7b530ec8.js",
+    "static/js/185.b8717aef.chunk.js": "/Kaif-Development/static/js/185.b8717aef.chunk.js",
+    "index.html": "/Kaif-Development/index.html",
+    "main.195e7180.css.map": "/Kaif-Development/static/css/main.195e7180.css.map",
+    "main.7b530ec8.js.map": "/Kaif-Development/static/js/main.7b530ec8.js.map",
+    "185.b8717aef.chunk.js.map": "/Kaif-Development/static/js/185.b8717aef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.195e7180.css",
+    "static/js/main.7b530ec8.js"
+  ]
+}
