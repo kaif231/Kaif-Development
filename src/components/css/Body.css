@@ -1,0 +1,27 @@
+@media only screen and (min-width: 280px) and  (max-width: 550px){
+    body{
+        width: 100%;
+    }
+}
+
+/*Tablets &Laptops*/
+@media only screen and (min-width: 520px) and (max-width: 1250px){
+    body{
+        width: 100%;
+    }
+    .Body{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+/*Computer*/
+@media only screen and (min-width: 1250px){
+    body{
+        width: 100%;
+    }
+    .Body{
+        width: 80%;
+        margin: 0 auto;
+        height: auto;
+    }
+}

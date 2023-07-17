@@ -1,0 +1,89 @@
+h1{
+    color: #42446E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+.ulc{
+    margin: 5%;
+    font-size: 1.5em;
+}
+.lic{
+    margin: 10px 0px;
+}
+.info:hover{
+    color: cyan;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+#f:hover{
+    color: lightblue;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px 5px;
+    width: 60px;
+    text-align: center;
+    height: 50px;
+}
+#t:hover{
+    color: rgb(130, 130, 232);
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px 5px;
+    width: 60px;
+    text-align: center;
+    height: 50px;
+}
+#I:hover{
+    color: rgb(247, 154, 170);
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px 5px;
+    width: 60px;
+    text-align: center;
+    height: 50px;
+}
+#l:hover{
+    color: blue;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px 5px;
+    width: 60px;
+    text-align: center;
+    height: 50px;
+}
+#g:hover{
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px 5px;
+    width: 60px;
+    text-align: center;
+    height: 50px;
+}
+p{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.freelance{
+    background: -webkit-linear-gradient(rgba(10, 176, 245, 1), rgba(231, 15, 170, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media only screen and (min-width: 210px) and (max-width: 560px){
+    h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .ulc li{
+        display: flex;
+        justify-content: space-between;
+        font-size: .7em;
+    }
+}

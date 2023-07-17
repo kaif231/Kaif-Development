@@ -1,0 +1,109 @@
+#About h1 {
+    color: #42446E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+
+#About p {
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--dark-content, #666);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    color: #42446E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    letter-spacing: -0.4px;
+}
+
+.liC {
+    border-bottom: 3px solid black;
+}
+
+.li1 {
+    font-size: 1.3em;
+}
+
+.p3 {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.p4 {
+    position: relative;
+    float: right;
+    width: 50%;
+}
+
+.p1 {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.p2 {
+    position: relative;
+    float: right;
+    width: 50%;
+}
+
+.img2 {
+    width: 30%;
+}
+
+@media only screen and (min-width: 210px) and (max-width: 560px) {
+
+    #About {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #About h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .liC{
+        width: 95%;
+        align-items: center;
+    }
+    .p1{
+        width: 40%;
+        position: relative;
+        float: left;
+    }
+    .p2{
+        width: 40%;
+        position: relative;
+        float: right;
+    }
+    .p2 img{
+        width: 70%;
+    }
+    .p3 {
+        position: relative;
+        float: left;
+        width: 62%;
+    }
+    .p4 {
+        position: relative;
+        float: right;
+        width: 38%;
+        font-size: .5em;
+    }
+    .p1, .p2, .p3, .p4{
+        padding: 0px 5px;
+    }
+}

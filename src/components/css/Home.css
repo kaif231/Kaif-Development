@@ -1,0 +1,159 @@
+
+    .me {
+        margin-top: 5%;
+        position: relative;
+        float: left;
+        height: 20%;
+    }
+    
+    .p {
+        color: #42446E;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        font-weight: bolder;
+        font-style: normal;
+        letter-spacing: -1px;
+        position: relative;
+        float: left;
+        width: 40%;
+    }
+    
+    .name {
+        background: -webkit-linear-gradient(rgba(10, 176, 245, 1), rgba(231, 15, 170, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .meimg{
+        width: 25%;
+        border-radius: 50%;
+        position: relative;
+        float: right;
+        animation: 10s meimg infinite;
+        transition: .5s;
+    }
+    @keyframes meimg {
+        10%{
+            box-shadow: 5px 5px 5px 5px purple;
+        }
+        20%{
+            box-shadow: 5px 5px 5px 5px red;
+        }
+        30%{
+            box-shadow: 5px 5px 5px 5px yellow;
+        }
+        40%{
+            box-shadow: 5px 5px 5px 5px blue;
+        }
+        50%{
+            box-shadow: 5px 5px 5px 5px pink;
+        }
+        60%{
+            box-shadow: 5px 5px 5px 5px brown;
+        }
+        70%{
+            box-shadow: 5px 5px 5px 5px wheat;
+        }
+        80%{
+            box-shadow: 5px 5px 5px 5px green;
+        }
+        90%{
+            box-shadow: 5px 5px 5px 5px grey;
+        }
+        100%{
+            box-shadow: 5px 5px 5px 5px black;
+        }
+    } 
+
+
+
+@media only screen and (max-width: 1250px){
+    .home {
+        margin-top: 5%;
+        position: relative;
+        float: left;
+        height: 20%;
+
+    }
+    
+    .p {
+        color: #42446E;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        font-style: normal;
+        letter-spacing: -1px;
+        position: relative;
+        float: left;
+        width: 45%;
+    }
+    
+    .name {
+        background: -webkit-linear-gradient(rgba(10, 176, 245, 1), rgba(231, 15, 170, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .meimg{
+        width: 35%;
+        border-radius: 50%;
+        position: relative;
+        float: right;
+        animation: 10s meimg infinite;
+        transition: .5s;
+    }
+    @keyframes meimg {
+        10%{
+            box-shadow: 5px 5px 5px 5px purple;
+        }
+        20%{
+            box-shadow: 5px 5px 5px 5px red;
+        }
+        30%{
+            box-shadow: 5px 5px 5px 5px yellow;
+        }
+        40%{
+            box-shadow: 5px 5px 5px 5px blue;
+        }
+        50%{
+            box-shadow: 5px 5px 5px 5px pink;
+        }
+        60%{
+            box-shadow: 5px 5px 5px 5px brown;
+        }
+        70%{
+            box-shadow: 5px 5px 5px 5px wheat;
+        }
+        80%{
+            box-shadow: 5px 5px 5px 5px green;
+        }
+        90%{
+            box-shadow: 5px 5px 5px 5px grey;
+        }
+        100%{
+            box-shadow: 5px 5px 5px 5px black;
+        }
+    }
+    
+}
+/**/
+/**/
+/*Mobile*/
+@media only screen and (min-width: 220px) and (max-width: 560px){
+    .home{
+        width: 100%;
+        padding: 5px 5px;
+        margin: 0 auto;
+    }
+    .meimg{
+        width: 35%;
+        position: relative;
+        float: right;
+    }
+    .p{
+        width: 60%;
+        position: relative;
+        float: left;
+        font-size: 1.5em;
+    }
+}

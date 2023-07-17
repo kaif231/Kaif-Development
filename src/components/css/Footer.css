@@ -1,0 +1,170 @@
+/*Mobile*/
+@media only screen and (min-width: 220px) and (max-width: 580px){
+    .footer{
+        margin-top: 10%;
+        position: relative;
+        float: left;
+        width: 100%;
+        flex: none;
+        margin-bottom: 5%;
+    }
+    .footer ul{
+        flex: none;
+    }
+    .footer li{
+        list-style: none;
+    }
+    .right{
+        display: none;
+    }
+    .footer ul li{
+        display: none;
+    }
+    .colored{
+        background: -webkit-linear-gradient(rgba(10, 176, 245, 1), rgba(231, 15, 170, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .left{
+        position: relative;
+        float: right;
+        width: 100%;
+    }
+    #twitter:hover{
+        color: lightblue;
+        margin: 5px 5px;
+    }
+    #linkdin:hover{
+        color: blue;
+        margin: 5px 5px;
+    }
+    #github:hover{
+        color: black;
+        margin: 5px 5px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tablets laptops*/
+@media only screen and (min-width: 560px) and (max-width: 1300px){
+    .footer{
+        margin-top: 10%;
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-bottom: 5%;
+        
+    }
+    .footer ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer li{
+        list-style: none;
+    }
+    .right ul{
+        position: relative;
+        float: left;
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 1px solid black;
+    }
+    .right li{
+        display: inline;
+    }
+    .colored{
+        background: -webkit-linear-gradient(rgba(10, 176, 245, 1), rgba(231, 15, 170, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .left{
+        position: relative;
+        float: right;
+        width: 100%;
+    }
+    #twitter:hover{
+        color: lightblue;
+        margin: 5px 5px;
+    }
+    #linkdin:hover{
+        color: blue;
+        margin: 5px 5px;
+    }
+    #github:hover{
+        color: black;
+        margin: 5px 5px;
+    }
+    
+}
+/*Computers*/
+@media only screen and (min-width: 1300px){
+    .footer{
+        margin-top: 10%;
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-bottom: 5%;
+        
+    }
+    
+    .footer ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer li{
+        list-style: none;
+    }
+    .right ul{
+        position: relative;
+        float: left;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .right li{
+        display: inline;
+    }
+    .colored{
+        background: -webkit-linear-gradient(rgba(10, 176, 245, 1), rgba(231, 15, 170, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .left{
+        position: relative;
+        float: right;
+        width: 60%;
+    }
+    #twitter:hover{
+        color: lightblue;
+        margin: 5px 5px;
+    }
+    #linkdin:hover{
+        color: blue;
+        margin: 5px 5px;
+    }
+    #github:hover{
+        color: black;
+        margin: 5px 5px;
+    }
+    
+}
+/**/
+/**/
+/**/

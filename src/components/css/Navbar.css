@@ -1,0 +1,233 @@
+@media only screen and (min-width: 240px) and (max-width: 560px) {
+    .Navbar {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,94,0.9877064595369398) 35%, rgba(0,212,255,1) 100%);
+        margin: 0 0;
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .Link {
+        color: white;
+        margin: 2%;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-weight: bolder;
+        
+    }
+
+    .Link:hover {
+        margin: 5px 2px;
+        font-weight: bolder;
+        border: 2px solid black;
+        margin: 5px 5px;
+        padding: 5px 5px;
+        border-radius: 30px;
+        color: cyan;
+    }
+   
+
+    ul li {
+        display: flex;
+        justify-content: center;
+    }
+
+    #humberger {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px 5px;
+        align-items: center;
+    }
+
+}
+
+/*Tablet and laptop*/
+@media only screen and (min-width: 560px) and (max-width: 1300px) {
+    #humberger {
+        display: none;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        height: 90%;
+    }
+
+    .Navbar {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .Navbar ul {
+        display: flex;
+        margin: 3% 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Navbar ul li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .Link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .Link:hover {
+        margin: 5px 2px;
+        font-weight: bolder;
+        color: cyan;
+    }
+
+    #twitter:hover {
+        color: lightblue;
+    }
+
+    #linkdin:hover {
+        color: blue;
+    }
+
+    #github:hover {
+        color: black;
+    }
+
+    .Me {
+        width: 60%;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .float-left {
+        width: 40%;
+        color: #42446E;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -1px;
+        position: relative;
+        float: left;
+    }
+
+    .float-left .name {
+        background: linear-gradient(rgba(19, 176, 245, 1), rgba(231, 15, 170, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+
+    .Meimg {
+        width: 30%;
+        height: auto;
+        border: 5px solid purple;
+        border-radius: 50%;
+        position: relative;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    #humberger {
+        display: none;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        height: 90%;
+    }
+
+    .Navbar {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .Navbar ul {
+        display: flex;
+        margin: 3% 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Navbar ul li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .Link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .Link:hover {
+        margin: 5px 2px;
+        font-weight: bolder;
+        color: cyan;
+    }
+
+    #twitter:hover {
+        color: lightblue;
+    }
+
+    #linkdin:hover {
+        color: blue;
+    }
+
+    #github:hover {
+        color: black;
+    }
+
+    .Me {
+        width: 60%;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .float-left {
+        width: 40%;
+        color: #42446E;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -1px;
+        position: relative;
+        float: left;
+    }
+
+    .float-left .name {
+        background: linear-gradient(rgba(19, 176, 245, 1), rgba(231, 15, 170, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+
+    .Meimg {
+        width: 30%;
+        height: auto;
+        border: 5px solid purple;
+        border-radius: 50%;
+        position: relative;
+        float: right;
+    }
+}
